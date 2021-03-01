@@ -6,11 +6,11 @@ import java.util.Date;
 public class Seller implements Serializable{
 
 	private static final long serialVersionUID = 1L;
-	private Integer id       ;
-	private String name		 ;
-	private String email	 ;
-	private Date   birthDate ;
-	private Double baseSalary;
+	private Integer id        ;
+	private String  name	  ;	 ;
+	private String  email	  ;
+	private Date    birthDate ;
+	private Double  baseSalary;
 	
 	private Department department;
 	
@@ -27,11 +27,11 @@ public class Seller implements Serializable{
 		this.department = department;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
